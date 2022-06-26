@@ -1,0 +1,417 @@
+{
+	"info": {
+		"_postman_id": "a534c1d1-b971-4a8a-9675-791c8fc4760f",
+		"name": "HW_dummyapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19780035"
+	},
+	"item": [
+		{
+			"name": "post_create_user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"mr\",\r\n\"firstName\": \"Alex\",\r\n\"lastName\": \"Volkov\",\r\n\"gender\": \"male\",\r\n\"email\": \"alex.volkov@mail.ru\",\r\n\"dateOfBirth\": \"1/1/1990\",\r\n\"phone\": \"+7-951-716-02-47\",\r\n\"picture\": \"http://my.photo.com\",\r\n\"location\": \r\n    {\r\n        \"street\": \"Pushkina\",\r\n        \"city\": \"Smolensk\",\r\n        \"state\": \"Smolensk\",\r\n        \"country\": \"Russia\",\r\n        \"timezone\": \"+7:00\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test_create_Ivan_Petrov",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"mr\",\r\n\"firstName\": \"Ivan\",\r\n\"lastName\": \"Petrov\",\r\n\"gender\": \"male\",\r\n\"email\": \"IVAN_PETROV@mail.ru\",\r\n\"dateOfBirth\": \"1/1/1990\",\r\n\"phone\": 78798779798789789789797888888888888888888888888888888888888888888888888878787978978978787878789787897897878978978978787897987877777879877979878978978979788888888888888888888888888888888888888888888888887878797897897878787878978789789787897897897878789798787777787987797987897897897978888888888888888888888888888888888888888888888888787879789789787878787897878978978789789789787878979878777778798779798789789789797888888888888888888888888888888888888888888888888878787978978978787878789787897897878978978978787897987877777879877979878978978979788888888888888888888888888888888888888888888888887878797897897878787878978789789787897897897878789798787777787987797987897897897978888888888888888888888888888888888888888888888888787879789789787878787897878978978789789789787878979878777778798779798789789789797888888888888888888888888888888888888888888888888878787978978978787878789787897897878978978978787897987877777879877979878978978979788888888888888888888888888888888888888888888888887878797897897878787878978789789787897897897878789798787777,\r\n\"picture\": \"http://my.photo.com\",\r\n\"location\": \r\n    {\r\n        \"street\": \"Pushkina\",\r\n        \"city\": \"Smolensk\",\r\n        \"state\": \"Smolensk\",\r\n        \"country\": \"Russia\",\r\n        \"timezone\": \"000\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test_create_1_1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"mr\",\r\n\"firstName\": 11,\r\n\"lastName\": 11,\r\n\"gender\": \"male\",\r\n\"email\": \"alexmail11@k.ru\",\r\n\"dateOfBirth\": \"1/1/1990\",\r\n\"phone\": \"one, two\",\r\n\"picture\": \"http://my.photo.com\",\r\n\"location\": \r\n    {\r\n        \"street\": \"Pushkina\",\r\n        \"city\": \"Smolensk\",\r\n        \"state\": \"Smolensk\",\r\n        \"country\": \"Russia\",\r\n        \"timezone\": 0\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test_create_1_2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"mr\",\r\n\"firstName\": 11,\r\n\"lastName\": 22,\r\n\"gender\": \"male\",\r\n\"email\": \"_____@k.ru\",\r\n\"dateOfBirth\": \"1/1/1990\",\r\n\"phone\": 88888888888888888888888888878787978978978787878789787897897878978978978787897987,\r\n\"picture\": \"http://my.photo.com\",\r\n\"location\": \r\n    {\r\n        \"street\": \"Pushkina\",\r\n        \"city\": \"Smolensk\",\r\n        \"state\": \"Smolensk\",\r\n        \"country\": \"Russia\",\r\n        \"timezone\": 0\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put_user_Alex",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"mr\",\r\n\"firstName\": \"Alex\",\r\n\"lastName\": \"Ivanov\",\r\n\"gender\": \"male\",\r\n\"email\": \"alex.volkov@mail.ru\",\r\n\"dateOfBirth\": \"1/1/1990\",\r\n\"phone\": \"+7-951-716-02-47\",\r\n\"picture\": \"http://my.photo.com\",\r\n\"location\": \r\n    {\r\n        \"street\": \"Pushkina\",\r\n        \"city\": \"Smolensk\",\r\n        \"state\": \"Smolensk\",\r\n        \"country\": \"Russia\",\r\n        \"timezone\": \"+7:00\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/62aade5c09507662002a3d84",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"62aade5c09507662002a3d84"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put_user_Friedrich_Karl",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"mr\",\r\n\"firstName\": \"Alex\",\r\n\"lastName\": \"Ivanov\",\r\n\"gender\": \"male\",\r\n\"email\": \"alex.volkov@mail.ru\",\r\n\"dateOfBirth\": \"1/1/1990\",\r\n\"phone\": \"+7-951-716-02-47\",\r\n\"picture\": \"http://my.photo.com\",\r\n\"location\": \r\n    {\r\n        \"street\": \"Pushkina\",\r\n        \"city\": \"Smolensk\",\r\n        \"state\": \"Smolensk\",\r\n        \"country\": \"Russia\",\r\n        \"timezone\": \"+7:00\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/62aade5c09507662002a3d84",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"62aade5c09507662002a3d84"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_user_Alex",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"mr\",\r\n\"firstName\": \"Alex\",\r\n\"lastName\": \"Ivanov\",\r\n\"gender\": \"male\",\r\n\"email\": \"alex.volkov@mail.ru\",\r\n\"dateOfBirth\": \"1/1/1990\",\r\n\"phone\": \"+7-951-716-02-47\",\r\n\"picture\": \"http://my.photo.com\",\r\n\"location\": \r\n    {\r\n        \"street\": \"Pushkina\",\r\n        \"city\": \"Smolensk\",\r\n        \"state\": \"Smolensk\",\r\n        \"country\": \"Russia\",\r\n        \"timezone\": \"+7:00\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/62aade5c09507662002a3d84",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"62aade5c09507662002a3d84"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_user_Kent",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"mr\",\r\n\"firstName\": \"Alex\",\r\n\"lastName\": \"Ivanov\",\r\n\"gender\": \"male\",\r\n\"email\": \"alex.volkov@mail.ru\",\r\n\"dateOfBirth\": \"1/1/1990\",\r\n\"phone\": \"+7-951-716-02-47\",\r\n\"picture\": \"http://my.photo.com\",\r\n\"location\": \r\n    {\r\n        \"street\": \"Pushkina\",\r\n        \"city\": \"Smolensk\",\r\n        \"state\": \"Smolensk\",\r\n        \"country\": \"Russia\",\r\n        \"timezone\": \"+7:00\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/60d0fe4f5311236168a109d1",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"60d0fe4f5311236168a109d1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_user_info",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/60d0fe4f5311236168a109d3",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"60d0fe4f5311236168a109d3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_user_info_after_delete",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/62aade5c09507662002a3d84",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"62aade5c09507662002a3d84"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_users_info",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_users_info_after_delete_Kent",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "62aad8bf38914944a68cfb7d",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/60d0fe4f5311236168a109d1",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"60d0fe4f5311236168a109d1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
