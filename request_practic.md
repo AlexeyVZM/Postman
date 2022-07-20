@@ -21,6 +21,12 @@
 10. Проверить, что salary в ответе равно salary s request (salary забрать из request.)
 11. Вывести в консоль параметр family из response.
 12. Проверить что u_salary_1_5_year в ответе равно salary*4 (salary забрать из request)
+![POST_user_info_3](https://user-images.githubusercontent.com/102965578/179917063-bbd18cc9-9b95-4480-bc01-e643fd9ace3c.jpg)
+
+![POST_user_info_3_(2)](https://user-images.githubusercontent.com/102965578/179917096-011d00ff-bd90-4768-98e0-888fc34c71f5.jpg)
+
+
+
 
 3) [http://162.55.220.72:5005/object_info_3](http://162.55.220.72:5005/object_info_3)
 1. Отправить запрос.
