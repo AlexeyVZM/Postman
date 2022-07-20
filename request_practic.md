@@ -4,6 +4,7 @@
 1. Отправить запрос.
 2. Статус код 200
 3. Проверить, что в body приходит правильный string.
+
 ![ScreenShot](https://drive.google.com/drive/folders/1PZL4zfwqtFHyeQc47oN_7q4rEYf7dwMu)
 
 2) [http://162.55.220.72:5005/user_info_3](http://162.55.220.72:5005/user_info_3)
