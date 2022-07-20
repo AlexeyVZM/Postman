@@ -8,8 +8,11 @@
 ![check_response_body](https://github.com/AlexeyVZM/Postman/blob/main/request_practic/check_response_body.jpg)
 
 
-2) [http://162.55.220.72:5005/user_info_3](http://162.55.220.72:5005/user_info_3)
-1. Отправить запрос.
+[http://162.55.220.72:5005/user_info_3](http://162.55.220.72:5005/user_info_3)
+Отправить запрос.
+
+![body_POST_user_info_3](https://user-images.githubusercontent.com/102965578/179921888-a13ee117-af5c-4d14-936b-0340f96430b2.jpg)
+
 2. Статус код 200
 3. Спарсить response body в json.
 4. Проверить, что name в ответе равно name s request (name вбить руками.)
