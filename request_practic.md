@@ -5,7 +5,7 @@
 2. Статус код 200
 3. Проверить, что в body приходит правильный string.
 
-![ScreenShot](https://drive.google.com/drive/folders/1PZL4zfwqtFHyeQc47oN_7q4rEYf7dwMu)
+![ScreenShot]([https://drive.google.com/drive/folders/1PZL4zfwqtFHyeQc47oN_7q4rEYf7dwMu](https://drive.google.com/file/d/1MVoVyYvQ0AdtNmgayIP-SG5hENH1I5uX/view?usp=sharing))
 
 2) [http://162.55.220.72:5005/user_info_3](http://162.55.220.72:5005/user_info_3)
 1. Отправить запрос.
