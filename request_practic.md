@@ -5,7 +5,8 @@
 2. Статус код 200
 3. Проверить, что в body приходит правильный string.
 
-![https://drive.google.com/file/d/1hIQxgCctD1L_Vo_HVDYgCJsl2ZeHaCWu/edit](https://drive.google.com/file/d/1hIQxgCctD1L_Vo_HVDYgCJsl2ZeHaCWu/view?usp=sharing)
+![check_response_body](https://github.com/AlexeyVZM/Postman/blob/main/request_practic/check_response_body.jpg)
+
 
 2) [http://162.55.220.72:5005/user_info_3](http://162.55.220.72:5005/user_info_3)
 1. Отправить запрос.
